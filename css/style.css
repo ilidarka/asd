@@ -1,0 +1,18 @@
+div {
+    background-color: red;
+    width: 20px;
+    height: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 10px;
+    color: #fff;
+}
+#first {
+    background-color: green;
+}
+.second {
+    height: 50px;
+}
+.second:hover {
+    background-color: purple;
+}
