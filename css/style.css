@@ -1,18 +1,22 @@
+/*Обращение ко всем дивам на странице*/
 div {
-    background-color: red;
-    width: 20px;
-    height: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 10px;
-    color: #fff;
+    background-color: red; /*Цвет фона*/
+    width: 20px; /*Ширина*/
+    height: 10px; /*Высота*/
+    margin: 0 0 10px 0; /*Внешний отступ*/
+    padding: 10px 10px 10px 10px; /*Внутренний отступ*/
+    font-size: 10px; /*Размер шрифта*/
+    color: #fff; /*Цвет шрифта*/
 }
+/*Обращение к диву с айди first*/
 #first {
     background-color: green;
 }
+/*Обращение к диву с классом second*/
 .second {
     height: 50px;
 }
+/*Здесь мы пишем то что должно проиисходить с элементом при наведении на него мышкой*/
 .second:hover {
     background-color: purple;
 }
