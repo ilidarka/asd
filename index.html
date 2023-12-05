@@ -10,37 +10,46 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/mediaStyle.css" />
         <title>Document</title>
     </head>
     <body>
         <header>
             <div class="wrapper">
                 <div class="header-menu">
-                    <img src="./img/logo.svg" alt="logo" />
+                    <a href="#"><img src="./img/logo.svg" alt="logo" /></a>
                     <nav>
-                        <li>
-                            <a href="#">Favorite coffee</a>
-                            <span class="underline"></span>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                            <span class="underline"></span>
-                        </li>
-                        <li>
-                            <a href="#">Mobile app</a>
-                            <span class="underline"></span>
-                        </li>
-                        <li>
-                            <a href="#">Contact us</a>
-                            <span class="underline"></span>
-                        </li>
+                        <ul>
+                            <li>
+                                <a href="#">Favorite coffee</a>
+                                <span class="underline"></span>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                                <span class="underline"></span>
+                            </li>
+                            <li>
+                                <a href="#">Mobile app</a>
+                                <span class="underline"></span>
+                            </li>
+                            <li>
+                                <a href="#">Contact us</a>
+                                <span class="underline"></span>
+                            </li>
+                        </ul>
                     </nav>
                     <div class="coffee-menu">
                         <a href="#">
                             <span>Menu</span>
                             <img src="./img/coffee-cup.svg" alt="coffee-cup" />
                         </a>
+                        <span class="underline"></span>
                     </div>
+                    <img
+                        class="burger-icon"
+                        src="./img/button-icon-burger.svg"
+                        alt="button-icon-burger"
+                    />
                 </div>
                 <div class="hero">
                     <div class="hero-content">
@@ -60,7 +69,13 @@
                 </div>
             </div>
         </header>
-        <main></main>
+        <main>
+            <section class="favorire-coffee">
+                <div class="wrapper">
+                    <h2>Choose your <span class="h2-accent">favorite</span> coffee</h2>
+                </div>
+            </section>
+        </main>
         <footer></footer>
     </body>
 </html>

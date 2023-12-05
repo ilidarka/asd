@@ -28,6 +28,7 @@ body {
     gap: 100px;
     background-color: var(--background-body);
     padding: 20px 0 40px 0;
+    font-family: can;
 }
 h1 {
     font-size: 72px;
@@ -36,7 +37,19 @@ h1 {
     line-height: 105%;
     color: var(--text-light);
 }
+h2 {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    color: var(--text-dark);
+}
 .h1-accent {
+    font-style: italic;
+    color: var(--text-accent);
+}
+.h2-accent {
+    font-size: 60px;
     font-style: italic;
     color: var(--text-accent);
 }
@@ -67,6 +80,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 40px;
 }
 header .wrapper {
     gap: 20px;
@@ -78,6 +92,11 @@ header .wrapper {
     align-items: center;
 }
 nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +114,17 @@ nav li:hover .underline {
     transition: 0.5s;
     width: 100%;
 }
+.coffee-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+.coffee-menu:hover .underline {
+    width: 100%;
+    transition: 0.5s;
+}
 .coffee-menu a {
     display: flex;
     justify-content: center;
@@ -107,15 +137,16 @@ nav li:hover .underline {
     font-weight: 600;
     line-height: 150%;
 }
+.burger-icon {
+    display: none;
+}
 .hero {
     padding: 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background: url('../img/hero-image.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url('../img/hero-image.png') lightgray 50% / cover no-repeat;
     border-radius: 40px;
 }
 .hero-content {
@@ -138,8 +169,27 @@ nav li:hover .underline {
     padding: 20px 78px;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 0px;
     border-radius: 100px;
     background-color: var(--background-body);
     border: none;
+    transition: 0.5s;
+}
+.hero button span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+.hero img {
+    opacity: 0;
+    transition: 0.5s;
+}
+.hero button:hover img {
+    opacity: 1;
+    transition: 0.5s;
+}
+.hero button:hover {
+    gap: 8px;
+    transition: 0.5s;
 }

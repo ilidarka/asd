@@ -1,0 +1,17 @@
+@media (max-width: 1000px) {
+    header nav,
+    header .coffee-menu {
+        display: none;
+    }
+    .burger-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero {
+        padding: 100px 60px;
+    }
+    .hero-content {
+        width: 100%;
+    }
+}
