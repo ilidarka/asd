@@ -193,3 +193,26 @@ nav li:hover .underline {
     gap: 8px;
     transition: 0.5s;
 }
+h3
+{
+    color: var(--text-dark);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+}
+.coffee-description
+{
+    color: var(--text-dark);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+.slide-1 {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+}
